@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Carrito</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/logoneche.svg" class="logoNeche" alt="logoNeche" />
+    <div>
+      <a href="./carrito.html" id="anchor_carrito">Carrito</a>
+    </div>
+  </header>
+
+  <main class="d-flex justify-content-center">
+    <div id="row" class="row mb-3"></div>
+  </main>
+
+  <section class="contact">
+    <div class="u-wrapper">
+      <div class="contact-content">
+
+        <form id="form" action="" class="form" action="https://formspree.io/f/xknyaonq" method="POST">
+          <h3 class="tag"><span>DUDAS Y/O CONSULTAS SOBRE PRODUCTOS</span></h3>
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Nicolas">
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="necchenechegmail.com">
+          <label for="message">Mensaje <span>*</span></label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn btn-success full botonEnviar">Enviar mensaje</button>
+        </form>
+        <a href="mailto:cabritanicolas@gmail.com" id="mail">Link al Correo</a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>Nicolas dos Santos Cabrita</footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- JavaScript-->
+  <script src="./js/productos.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="js/libreria.js"></script>
+  <script src="js/formulario.js"></script>
+</body>
+
+</html>
